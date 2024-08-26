@@ -1,0 +1,80 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+#menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#logo {
+  height: 50px;
+}
+
+#login-btn {
+  background: linear-gradient(to right, #ff8c00, #ff0080);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+#banner img {
+  width: 100%;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+#game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.center {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.center img {
+  width: 150px;
+}
+
+.center .btn {
+  background: linear-gradient(to right, #ff8c00, #ff0080);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
