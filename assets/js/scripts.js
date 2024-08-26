@@ -73,3 +73,14 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 });
+document.addEventListener('DOMContentLoaded', function() {
+  // Inline Emergency Shutdown Configuration
+  const emergencyConfig = {
+    enable: false // Change to true to activate Emergency Shutdown
+  };
+
+  // Emergency shutdown check
+  if (emergencyConfig.enable) {
+    window.location.href = 'emergency_shutdown.html';
+    return; // Stop further execution
+  }
