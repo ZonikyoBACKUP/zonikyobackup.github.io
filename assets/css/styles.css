@@ -78,3 +78,66 @@ footer a {
   text-decoration: none;
   display: inline-block;
 }
+
+/* Menu links */
+.menu-links a {
+  display: block;
+  padding: 10px 0;
+  color: white;
+  text-decoration: none;
+}
+
+/* Fixes for homepage UI */
+#latest-games,
+#categories {
+  padding: 20px;
+}
+
+#latest-games h2,
+#categories h2 {
+  margin-bottom: 10px;
+}
+
+/* Theming for Game Submission Form */
+#upload-form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#upload-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#upload-form input[type="text"],
+#upload-form input[type="url"],
+#upload-form textarea,
+#upload-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#upload-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to right, #ff8c00, #ff0080);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#upload-form button:hover {
+  background: linear-gradient(to right, #ff0080, #ff8c00);
+}
+
