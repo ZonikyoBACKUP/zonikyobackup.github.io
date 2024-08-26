@@ -1,7 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
-  // Toggle menu and emergency shutdown as before...
-
-  // Handle game submission
+// Handle game submission
   const uploadForm = document.getElementById('upload-form');
   if (uploadForm) {
     uploadForm.addEventListener('submit', function(e) {
