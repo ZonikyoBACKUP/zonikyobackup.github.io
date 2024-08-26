@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload a Game | Zonikyo</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap">
+  <script src="https://www.authpro.com/js/auth.js"></script>
+  <script>var ap = new AuthPro('CoolD1234');</script>
+</head>
+<body>
+  <header>
+    <nav id="navbar">
+      <div id="menu-icon">☰</div>
+      <img src="assets/img/logo.png" alt="Zonikyo Gaming Logo" id="logo">
+      <a href="authpro:login" id="login-btn">Login / Signup</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Upload Your Game</h1>
+    <form id="upload-form">
+      <label for="title">Game Title</label>
+      <input type="text" id="title" name="title" required>
+
+      <label for="description">Description</label>
+      <textarea id="description" name="description" required></textarea>
+
+      <label for="embed-url">Game Embed URL</label>
+      <input type="url" id="embed-url" name="embed-url" required>
+
+      <label for="thumbnail">Thumbnail Image</label>
+      <input type="file" id="thumbnail" name="thumbnail" accept="image/*" required>
+
+      <label for="category">Category</label>
+      <select id="category" name="category">
+        <option value="action">Action</option>
+        <option value="adventure">Adventure</option>
+        <option value="puzzle">Puzzle</option>
+        <!-- Add more categories as needed -->
+      </select>
+
+      <button type="submit">Submit Game</button>
+    </form>
+  </main>
+
+  <footer>
+    <a href="terms.html">Terms and Conditions</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="support.html">Contact</a>
+  </footer>
+
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
